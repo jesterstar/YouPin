@@ -1,0 +1,611 @@
+<!-- <!DOCTYPE html> -->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap v3.3.4 -->
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" type="text/css" media="screen, projection"/>
+
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>YOOPIN Serive</title>
+
+    <!-- Header CSS (First Sections of Website: compress & paste after release from _header.css here) -->
+    <style></style>
+
+    <!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
+    <script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
+
+    <!-- Load CSS Compilled without JS -->
+    <link rel="stylesheet" href="css/_main.css"/>
+    <link rel="stylesheet" href="_fonts.css"/>
+    <link rel="stylesheet" href="css/_media.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="http://allfont.ru/allfont.css?fonts=gentium-basic" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
+    <noscript><link rel="stylesheet" href="bootstrap/compiled.min.css"></noscript>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/main.js"></script>
+    
+</head>
+<body data-spy="scroll">
+
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" alt="logo"/>
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+
+                    <ul class="nav navbar-nav">
+
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#pages">Pages</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#extensions">Extensions</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+
+                    </ul>
+
+                    <div class="nav_social">
+
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-pinterest"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <section class="carousel">
+        <div class="container-fluid container_carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <!--<ol class="carousel-indicators">-->
+                <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+                <!--<li class="" data-target="#myCarousel" data-slide-to="1"></li>-->
+                <!--<li class="" data-target="#myCarousel" data-slide-to="2"></li>-->
+                <!--</ol>-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="overlay"></div>
+                        <div class="slide_img" style="background-image:url(img/slide_1.jpg)"></div>
+                        <div id="home" class="container">
+                            <div class="carousel-caption">
+                                <h1>Deliwering the quality<br>work affordale</h1>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae error, esse fugiat illum impedit inventore iste labore.</span>
+                                    <a class="btn btn-lg btn-primary" href="#" role="button">View more</a>
+                                    <a data-target="#myModal" data-toggle="modal" class="btn btn-lg btn-primary" href="#" role="button">Contact us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="overlay"></div>
+                        <div class="slide_img" style="background-image:url(img/slide_2.jpg)"></div>
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Deliwering the quality<br>work affordale</h1>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae error, esse fugiat illum impedit inventore iste labore.</span>
+                                <a class="btn btn-lg btn-primary" href="#" role="button">View more</a>
+                                <a data-target="#myModal" data-toggle="modal"  class="btn btn-lg btn-primary" href="#" role="button">Contact us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="overlay"></div>
+                        <div class="slide_img" style="background-image:url(img/slide_3.jpg)"></div>
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Deliwering the quality<br>work affordale</h1>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae error, esse fugiat illum impedit inventore iste labore.</span>
+                                <a class="btn btn-lg btn-primary" href="#" role="button">View more</a>
+                                <a data-target="#myModal" data-toggle="modal" class="btn btn-lg btn-primary" href="#" role="button">Contact us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div><!-- /.carousel -->
+        </div>
+    </section>
+
+    <section class="about">
+
+        <div class="cont_about container">
+
+            <div class="first_row row">
+
+                <div class="col-md-12 col-lg-12">
+                    <h2>Welcome to YouPin service</h2>
+                    <div class="hr"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi aperiam doloremque dolorum ex, impedit ipsum molestiae nisi repellendus? Aliquam aperiam autem explicabo in ipsum, nemo obcaecati perspiciatis similique unde.</p>
+                </div>
+
+            </div>
+
+            <div class="second_row row">
+
+                <div class="col-md-4 col-sm-4 about_item">
+
+                    <ul class="icons icons--dasharray">
+                        <li class="icon">
+                            <svg viewbox="0 0 100 100">
+                                <use xlink:href="#home_svg">
+                            </svg>
+                        </li>
+                    </ul>
+                    <h3 id="pages">Feature one</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi aperiam doloremque dolorum ex, impedit ipsum molestiae nisi repellendus? Aliquam aperiam autem explicabo in ipsum, nemo obcaecati perspiciatis similique unde.</p>
+
+                </div>
+
+                <div class="col-md-4 col-sm-4 about_item">
+
+                    <ul class="icons icons--dasharray">
+                        <li class="icon">
+                            <svg viewbox="0 0 100 100">
+                                <use xlink:href="#cog">
+                            </svg>
+                        </li>
+                    </ul>
+                    <h3>Feature two</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi aperiam doloremque dolorum ex, impedit ipsum molestiae nisi repellendus? Aliquam aperiam autem explicabo in ipsum, nemo obcaecati perspiciatis similique unde.</p>
+
+                </div>
+
+                <div class="col-md-4 col-sm-4 about_item">
+
+                    <ul class="icons icons--dasharray">
+                        <li class="icon">
+                            <svg viewbox="0 0 100 100">
+                                <use xlink:href="#bubble">
+                            </svg>
+                        </li>
+                    </ul>
+                    <h3>Feature three</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi aperiam doloremque dolorum ex, impedit ipsum molestiae nisi repellendus? Aliquam aperiam autem explicabo in ipsum, nemo obcaecati perspiciatis similique unde.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="features" class="seo">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="seo_first col-md-8 col-sm-8">
+
+                        <span class="quote1">“</span>
+                        <span class="text">Welcome to Fitness Center, where our goal is to
+                            transform your life into a healthy one. We are
+                            equipped with top notch staff and the best
+                            equipment to.</span>
+                        <span class="quote2">”</span>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+
+                        <div class="outer">
+                            <div class="seo_message">
+                                Seo<br>
+                                Signature
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="extensions" class="news">
+
+        <div class="overlay">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+
+                        <h2>Latest News and Event</h2>
+                        <div class="hr"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="news_row row">
+
+                	<div class="col-md-12">
+
+                		<div class="new col-md-4 col-sm-4">
+
+                            <div class="inner">
+                                    <h3>akita inu dog</h3>
+                                        <p>
+                                            Aliquam debitis dolor dolore, dolorem dolores ducimus eos error eum excepturi ipsa iusto molestias, nemo repellat repellendus saepe sequi, similique soluta voluptatem?
+                                        </p>
+                                    <a class="btn btn-lg btn-primary" href="#" role="button">View more</a>
+                            </div>
+
+                            <img src="img/news/news_1.png" alt="alt" />
+
+                        </div>
+
+                        <div class="new col-md-4 col-sm-4">
+
+                			<div class="inner">
+                				<h3>akita inu dog</h3>
+                                    <p>
+                                        Aliquam debitis dolor dolore, dolorem dolores ducimus eos error eum excepturi ipsa iusto molestias, nemo repellat repellendus saepe sequi, similique soluta voluptatem?
+                                    </p>
+                                <a class="btn btn-lg btn-primary" href="#" role="button">View more</a>
+                			</div>
+
+                            <img src="img/news/news_2.png" alt="alt" />
+
+                        </div>
+
+                        <div class="new col-md-4 col-sm-4">
+
+                			<div class="inner">
+                				<h3>akita inu dog</h3>
+                                    <p>
+                                        Aliquam debitis dolor dolore, dolorem dolores ducimus eos error eum excepturi ipsa iusto molestias, nemo repellat repellendus saepe sequi, similique soluta voluptatem?
+                                    </p>
+                                <a class="btn btn-lg btn-primary" href="#" role="button">View more</a>
+                			</div>
+
+                            <img src="img/news/news_3.png" alt="alt" />
+
+                        </div>
+
+                	</div>                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="products">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-mad-12">
+
+                    <h2>Our Products</h2>
+                    <div class="hr"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, officiis, voluptates. Accusamus aut corporis delectus maiores nisi, placeat quaerat ut vero? Doloremque eaque iure modi officiis placeat quis temporibus! Harum.</p>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="cont col-md-6">
+
+                    <img src="img/ourProducts/first.png" alt="alt"/>
+
+                    <div>
+
+                        <h2>akita inu dog</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequatur delectus deserunt dolore est id maiores temporibus vitae!
+                        </p>
+                        <a class="btn btn-lg btn-primary" href="#" role="button">View more</a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="cont col-md-6">
+
+                    <img src="img/ourProducts/second.png" alt="alt"/>
+
+                    <div>
+
+                        <h2>akita inu dog</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequatur delectus deserunt dolore est id maiores temporibus vitae!
+                        </p>
+                        <a class="btn btn-lg btn-primary" href="#" role="button">View more</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section class="video">
+
+        <div class="overlar_v">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <h2><i>Watch</i> our new video</h2>
+                        <div class="hr"></div><br>
+
+                        <iframe src="https://www.youtube.com/embed/T94dW0tpSmg" frameborder="0" allowfullscreen></iframe>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contacts">
+
+        <div class="container">
+
+            <div class="foot_nav row">
+
+                <div class="col-md-6 col-sm-6">
+
+                    <h2>about studio7day.com</h2>
+                    <p>
+                        Looking cautiously round, to ascertain that they were not overheard, the<br>
+                        two hags cowered nearere to the fire, and chuckled heartily.
+                    </p>
+
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+
+                    <div class="row">
+
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <ul>
+                                <li>about us</li>
+                                <li><a href="">Company</a></li>
+                                <li><a href="">Our Team</a></li>
+                                <li><a href="">Testimonials</a></li>
+                                <li><a data-target="#myModal" data-toggle="modal" href="">Contacts</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <ul>
+                                <li>services</li>
+                                <li><a href="">Branding</a></li>
+                                <li><a href="">UX Design</a></li>
+                                <li><a href="">Prototype</a></li>
+                                <li><a href="">UI Design</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <ul>
+                                <li id="contacts">contact</li>
+                                <li>(415) 496-9612</li>
+                                <li>902 Reserve</li>
+                                <li>Roseville, CA 95678</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6 left">
+                    <p>Studio 7-day - All Rights Reserved &#169;</p>
+                </div>
+
+                <div class="col-md-6 right">
+                    <img src="" alt="alt"/>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <div class="modals">
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+
+                <form class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Contact us</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <label class="control-label" for="inputDefault">Name</label>
+                            <input class="form-control" id="inputDefault" type="text">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label" for="inputDefault">Phone Number</label>
+                            <input class="form-control" type="text">
+                        </div>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </div>
+                </form><!-- /.modal-content -->
+
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+    </div>
+
+    <svg width="0" height="0">
+        <defs>
+            <path id="home_svg" d="M100 59.375l-18.75-18.75v-28.125h-12.5v15.625l-18.75-18.75-50 50v3.125h12.5v31.25h31.25v-18.75h12.5v18.75h31.25v-31.25h12.5z"
+                  transform="translate(2, 2) scale(.95)"/>
+
+            <path id="cog" d="M100 59.384v-18.768l-14.333-2.389c-0.582-1.771-1.291-3.483-2.119-5.127l8.443-11.82-13.271-13.271-11.799 8.428c-1.651-0.835-3.373-1.552-5.153-2.139l-2.383-14.298h-18.768l-2.383 14.298c-1.78 0.587-3.502 1.304-5.153 2.139l-11.8-8.428-13.271 13.271 8.443 11.82c-0.827 1.644-1.537 3.356-2.118 5.127l-14.333 2.389v18.768l14.367 2.395c0.582 1.755 1.29 3.452 2.113 5.081l-8.471 11.86 13.271 13.271 11.88-8.486c1.621 0.815 3.31 1.516 5.055 2.093l2.4 14.402h18.768l2.4-14.402c1.746-0.577 3.434-1.278 5.055-2.093l11.88 8.486 13.271-13.271-8.471-11.86c0.823-1.629 1.531-3.326 2.113-5.081l14.367-2.394zM50 62.5c-6.904 0-12.5-5.596-12.5-12.5 0-6.904 5.596-12.5 12.5-12.5 6.904 0 12.5 5.596 12.5 12.5 0 6.904-5.596 12.5-12.5 12.5z"
+                  transform="translate(2, 2) scale(.95)"/>
+
+            <path id="bubble" d="M50 6.25c27.614 0 50 18.188 50 40.625 0 22.437-22.386 40.625-50 40.625-2.652 0-5.255-0.169-7.795-0.493-10.74 10.74-23.56 12.666-35.955 12.949v-2.629c6.693-3.279 12.5-9.252 12.5-16.078 0-0.953-0.074-1.888-0.211-2.802-11.308-7.448-18.539-18.824-18.539-31.573 0-22.437 22.386-40.625 50-40.625z"
+                  transform="translate(2, 2) scale(.95)"/>
+
+            <!-- Patterns  -->
+
+            <linearGradient id="stripes"
+                            x1="0" y1="0" x2="100%" y2="0%">
+                <stop stop-color="hsl(45,100%,65%)" offset="0"/>
+                <stop stop-color="hsl(320,100%,65%)" offset="50%"/>
+                <stop stop-color="hsl(200,100%,60%)" offset="100%"/>
+            </linearGradient>
+
+            <linearGradient id="stripes2" x1="0" y1="0"
+                            x2="0" y2="100%">
+                <stop stop-color="rgba(0,0,0,.2)"/>
+                <stop stop-color="rgba(0,0,0,.02)" offset="90"/>
+            </linearGradient>
+
+        </defs>
+    </svg>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+<!--[if lt IE 9]>
+    <script src="libs/html5shiv/es5-shim.min.js"></script>
+    <script src="libs/html5shiv/html5shiv.min.js"></script>
+    <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+
+<!-- Load CSS (remove/comment after release) -->
+<script>
+    //Load Libs CSS
+    // var ms=document.createElement("link");ms.rel="stylesheet";
+    // ms.href="libs/animate/animate.css";document.getElementsByTagName("head")[0].appendChild(ms);
+
+    //Header Styles (compress & paste to header after release)
+    var ms=document.createElement("link");ms.rel="stylesheet";
+    ms.href="_header.css";document.getElementsByTagName("head")[0].appendChild(ms);
+
+    //User Styles
+    var ms=document.createElement("link");ms.rel="stylesheet";
+    ms.href="_main.css";document.getElementsByTagName("head")[0].appendChild(ms);
+    var ms=document.createElement("link");ms.rel="stylesheet";
+    ms.href="_media.css";document.getElementsByTagName("head")[0].appendChild(ms);
+</script>
+
+<!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
+<script>var ms=document.createElement("link");ms.rel="stylesheet";
+// ms.href="compiled.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+</script>
+
+<!-- Load Scripts -->
+<script>var scr = {"scripts":[
+    {"src" : "libs/modernizr/modernizr.js", "async" : false},
+    {"src" : "libs/jquery/jquery-1.11.2.min.js", "async" : false},
+    {"src" : "libs/bootstrap/js/bootstrap.min.js", "async" : false},
+    {"src" : "libs/plugins-scroll/plugins-scroll.js", "async" : false},
+    {"src" : "js/common.js", "async" : false}
+]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+</script>
+</body>
+</html>

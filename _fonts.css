@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("fonts/RobotoRegular.ttf");
+	src: local('@#'), url("fonts/RobotoRegular.woff")format('woff'),
+	url("fonts/RobotoRegular.eof")format('eof'),
+	url("fonts/RobotoRegular.svg")format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RobotoBold";
+	src: url("fonts/RobotoBold.ttf");
+	src: local('@#'), url("fonts/RobotoBold.woff")format('woff'),
+	url("fonts/RobotoBold.eof")format('eof'),
+	url("fonts/RobotoBold.svg")format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("fonts/OpenSansRegular.ttf");
+	src: local('@#'), url("fonts/OpenSansRegular.woff")format('woff'),
+	url("fonts/OpenSansRegular.eof")format('eof'),
+	url("fonts/OpenSansRegular.svg")format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSansBold";
+	src: url("fonts/OpenSansBold.ttf");
+	src: local('@#'), url("fonts/OpenSansBold.woff")format('woff'),
+	url("fonts/OpenSansBold.eof")format('eof'),
+	url("fonts/OpenSansBold.svg")format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MyriadPro-Regular";
+	src: url("fonts/MyriadPro-Regular.ttf");
+	src: local('@#'), url("fonts/MyriadPro-Regular.woff")format('woff'),
+	url("fonts/MyriadPro-Regular.eof")format('eof'),
+	url("fonts/MyriadPro-Regular.otf")format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MyriadPro-Bold";
+	src: url("fonts/MyriadPro-Bold.ttf");
+	src: local('@#'), url("fonts/MyriadPro-Bold.woff")format('woff'),
+	url("fonts/MyriadPro-Bold.eof")format('eof'),
+	url("fonts/MyriadPro-Bold.otf")format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("fonts/drawing.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
